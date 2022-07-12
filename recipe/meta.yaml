@@ -1,4 +1,4 @@
-{% set version = "1.0.0" %}
+{% set version = "1.1.0" %}
 
 package:
   name: ossindex-lib
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/o/ossindex-lib/ossindex-lib-{{ version }}.tar.gz
-  sha256: 5a22fcd562b429084f68510519c9ad5503db528f6a88bc5cd2d48056f938550c
+  sha256: 9c58fa1c114a6049024ce5c19885a4ab0cd48c3ae4ed1bbe38a88c277c1b3364
 
 build:
   number: 0
@@ -31,7 +31,7 @@ requirements:
     - types-setuptools >=57.0.0
     # TODO: remove adter fixed in types-requests-feedstock
     - types-urllib3 <1.27
-    
+
 test:
   imports:
     - ossindex
