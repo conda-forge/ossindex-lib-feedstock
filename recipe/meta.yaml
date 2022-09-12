@@ -1,4 +1,4 @@
-{% set version = "1.1.0" %}
+{% set version = "1.1.1" %}
 
 package:
   name: ossindex-lib
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/o/ossindex-lib/ossindex-lib-{{ version }}.tar.gz
-  sha256: 9c58fa1c114a6049024ce5c19885a4ab0cd48c3ae4ed1bbe38a88c277c1b3364
+  sha256: 06eff2263a067aceee8fb45e11300c7d80863c5e9bb13016b866df40b30fe9eb
 
 build:
   number: 0
@@ -23,14 +23,12 @@ requirements:
     - importlib-metadata >=3.4
     - packageurl-python >=0.9.0,<0.10.0
     - python >=3.6,<4.0
-    - pyyaml >=5.4.1,<6.0.0
+    - pyyaml >=5.4.1
     - requests >=2.20.0,<3.0.0
     - tinydb >=4.5.0,<5.0.0
-    - types-PyYAML >=5.4.1,<6.0.0
+    - types-pyyaml >=5.4.1,<6.0.0
     - types-requests >=2.25.1,<3.0.0
     - types-setuptools >=57.0.0
-    # TODO: remove adter fixed in types-requests-feedstock
-    - types-urllib3 <1.27
 
 test:
   imports:
