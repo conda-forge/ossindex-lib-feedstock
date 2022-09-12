@@ -1,4 +1,4 @@
-{% set version = "1.1.0" %}
+{% set version = "1.1.1" %}
 
 package:
   name: ossindex-lib
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/o/ossindex-lib/ossindex-lib-{{ version }}.tar.gz
-  sha256: 9c58fa1c114a6049024ce5c19885a4ab0cd48c3ae4ed1bbe38a88c277c1b3364
+  sha256: 06eff2263a067aceee8fb45e11300c7d80863c5e9bb13016b866df40b30fe9eb
 
 build:
   number: 0
