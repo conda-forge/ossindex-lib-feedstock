@@ -3,11 +3,15 @@ About ossindex-lib-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/ossindex-lib-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/sonatype-nexus-community/ossindex-python
+Home: https://pypi.org/project/ossindex-lib
 
 Package license: Apache-2.0
 
-Summary: A library for querying the OSS Index free catalogue of open source components to help developers identify vulnerabilities, understand risk, and keep their software safe.
+Summary: A library for querying the OSS Index free catalogue of open source
+components to help developers identify vulnerabilities, understand risk,
+and keep their software safe.
+
+Development: https://github.com/sonatype-nexus-community/ossindex-python
 
 Current build status
 ====================
